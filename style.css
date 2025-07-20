@@ -350,3 +350,53 @@ footer{
   padding: 16px;
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-titulo h1,
+  .logo-titulo h4 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 8px 0;
+  }
+
+  .Metodo-contato {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .imagem-experiencia {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Começo .articles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .botoes {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
